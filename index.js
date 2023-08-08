@@ -9,7 +9,7 @@ const port = 5000
 app.use(cors(
   {
     origin: ["https://i-notebook-backend-delta.vercel.app"],
-    methods: ["POST", "GET", "PUT", "DELETE"],
+    methods: ["POST", "GET"],
     credentials: true
   }
 ));
