@@ -8,7 +8,7 @@ const port = 5000
 
 app.use(cors(
   {
-    origin: ["*https://i-notebook-qnzi.vercel.app"],
+    origin: ["*https://6693b70499701536b18c5d78--flourishing-gnome-aa6782.netlify.app/", "*http://localhost:3000","https://6693b70499701536b18c5d78--flourishing-gnome-aa6782.netlify.app/", "http://localhost:3000"],
     methods: ["POST", "GET"],
     credentials: true
   }
